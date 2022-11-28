@@ -14,7 +14,7 @@
 // return single string containing all HTML data
 export const potteryList = (pottery) => {
     let potteryToHTML = '';
-    console.log(pottery)
+
     for (const pot of pottery) {
         potteryToHTML += `
         <section>
